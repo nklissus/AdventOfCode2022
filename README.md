@@ -5,3 +5,6 @@ This repository will be used to store my work for the 2022 installment of Advent
 
 ## Day 01
 Just getting my C-legs under me. Compared to Python, C++ isn't quite as straightforward when dealing with strings but `stoi` converting a string to an integer is pretty useful for this task.
+
+## Day 02
+A pretty simple Rock/Paper/Scissors problem. I used a class to create a `Weapon` object which I used to track attributes about each side's weapon. the second part changed how the input worked and I attempted to create recursive classes to allow a single class to reference the weapons that it was strong/weak against but I couldn't figure it out and settled on one class for the hero and villain.
