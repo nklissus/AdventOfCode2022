@@ -14,3 +14,6 @@ Sorting through a bunch of rucksacks (represented as a series of strings) to fin
 
 ## Day 04
 The hardest part about this day was splitting each string into the important number. I built a custom parser but it would be nice if C++ had something like Python's `string.split`. Other than my frustration with strings, this puzzle was straightforward and I only really ran into issues understanding scope, but that is my own comprehension and will come with time.
+
+## Day 05
+I was my own worst enemy on this one. It helps to plan ahead when writing C++ and in this case it helps to store `int` as `int` and `string` as `string` instead of mixing them. Originally for part 1 I stored the number of containers to move as a string that I'd iterate through later, but finally realized some moves were >9 so it didn't really work. Part 2 was straightforward, but I was plagued by off-by-one errors; something to work on going forward.
