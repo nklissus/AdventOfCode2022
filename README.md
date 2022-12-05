@@ -11,3 +11,6 @@ A pretty simple Rock/Paper/Scissors problem. I used a class to create a `Weapon`
 
 ## Day 03
 Sorting through a bunch os rucksacks (represented as a series of strings) to find various items. This challenge required more string manipulation and introduced me to C++'s `string.find` functionality to find substrings within a string. It's very particular, but once I figured how to generate the right substrings and loops, this kind of just fell into place. It took way longer than it should have. I yearn for Python.
+
+## Day 04
+The hardest part about this day was splitting each string into the important number. I built a custom parser but it would be nice if C++ had something like Python's `string.split`. Other than my frustration with strings, this puzzle was straightforward and I only really ran into issues understanding scope, but that is my own comprehension and will come with time.
